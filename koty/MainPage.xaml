@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="koty.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                x:Name="kot"
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+
+            <Button
+                x:Name="CounterBtn"
+               
+                Text="kot" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+            <Button
+     x:Name="CounterBtn2"
+    
+     Text="gif" 
+     SemanticProperties.Hint="Counts the number of times you click"
+     Clicked="OnCounterClicked2"
+     HorizontalOptions="Fill" />
+            <Button
+      x:Name="CounterBtn3"
+     
+      Text="kot mowiacy hello" 
+      SemanticProperties.Hint="Counts the number of times you click"
+      Clicked="OnCounterClicked3"
+      HorizontalOptions="Fill" />
+            <Button
+  x:Name="CounterBtn4"
+ 
+  Text="gif z napisem" 
+  SemanticProperties.Hint="Counts the number of times you click"
+  Clicked="OnCounterClicked4"
+  HorizontalOptions="Fill" />
+            <Entry x:Name="input"></Entry>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
